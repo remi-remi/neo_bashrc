@@ -14,7 +14,7 @@ requirePackage docker && {
 
 docker compose version 2>&1>/dev/null && {
 
-	alias dc-psa='docker compose ps -a echo "dc-psa > docker compose ps -a"'
+	alias dc-psa='docker compose ps -a ; echo "dc-psa > docker compose ps -a"'
    alias dc-ud='docker compose up -d ; echo "dc-ud >docker compose up -d"'
 	alias dc='docker compose '	
 
