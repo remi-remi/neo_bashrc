@@ -1,0 +1,8 @@
+you can custom fail.wav and done.wav
+
+
+play cant always read mp3 so you should probably use ffmpeg to convert mp3 to wav
+
+ffmpeg -i done.mp3 done.wav
+
+ffmpeg -i fail.mp3 fail.wav

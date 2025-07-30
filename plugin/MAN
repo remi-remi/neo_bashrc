@@ -1,0 +1,6 @@
+this dir contain bashfunction / alias pack and other modification who could be set into the .bashrc file
+but if you put them here instead of directly into bashrc, it will be cleaner and easy to enable/disable fonctionalities
+
+regarding alias, it could be a best practive to use the modular alias system instead of this folder if your objective is to enable some alias only if some command exist
+
+only file with .sh extension will be imported

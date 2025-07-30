@@ -1,0 +1,8 @@
+use this dir to put custom alias pack
+
+this can be usefull if you want to separate responsability for your alias if you have alias for docker compose for example
+or quality of life alias who use batcat instead of cat
+
+you could have :
+docker.sh
+coloredOutput.sh
