@@ -9,6 +9,7 @@ requirePackage nvim && {
 	alias vimconf='nvim ~/.config/nvim/init.vim'
 	alias vim='nvim'
 	alias nv='nvim'
+   alias v='nvim .'
 }
 
 if requirePackage bat; then
